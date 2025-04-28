@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myimage {
+  width: 30px;
+  height: auto;
+  border-radius: 20%;
+}
+
+#hd, #ft, #lnav, #rnav, #bd {
+  opacity: 0.8;
+}
+
+#hd {
+  padding: 50px;
+  margin: 60px 60px 10px 60px; 
+}
+
+#hd h3 {
+  padding-top: 10px;
+}
+
+#hd a, #hd p {
+  display: inline;
+  color: lavender;
+}
+
+body {
+  background-image: url('./img/background image.jpg');
+  background-repeat: repeat;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  display: inline-block;
+}
+
+#projects p, 
+#exp p,
+#edu p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#bd, #rnav, #lnav, #ft {
+  padding: 10px;
+}
+
+nav a {
+  display: block;
+}
+
+#hd,
+#ft {
+  text-align: center;
+  color: lavender;
+  background-image: url('./img/header-footer.jpg');
+  background-repeat: repeat;
+}
+
+#lnav,
+#rnav,
+#bd {
+  border-radius: 5%;
+  float: left;
+}
+
+#lnav, #rnav {
+  height: 95vh;
+  width: 150px;
+  background-image: url('./img/nav.gif');
+}
+
+#lnav {
+  margin: 0px 0px 10px 60px;
+}
+
+#bd {
+  background-color: darkgrey;
+  margin: 0px 10px 0px;
+  width: calc(100% - 440px);
+  text-align: center;
+}
+
+#rnav {
+  margin: 0px 60px 10px 0px;
+}
+
+#ft {
+  margin: 0px 60px 60px 60px;
+  clear: left;
+}
+
+#ft a {
+  text-align: center;
+}
+
+.hlist {
+  position: relative;
+}
+
+.hlist li {
+  padding: 0px 3px 0px 3px;
+  display: inline;
+  margin: 0px 10px 0px 10px;
+  border-left: 1px dotted lavender;
+  border-right: 1px dotted lavender;
+}
+
+a {
+  text-decoration: underline;
+  font-size: medium;
+  color: lavender;
+}
+
+a:visited {
+  font-size: medium;
+  color:magenta;
+}
+
+a:hover {
+  font-size: x-large;
+  color: lavender;
+}
